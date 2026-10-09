@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-inter-tight: "Inter Tight", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #111111;
+    font-family: var(--font-inter-tight), "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 500;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.bp-card {
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bp-card {
+    will-change: auto;
+  }
+}
+
+/* Custom cursor hide default cursor on desktop */
+@media (min-width: 1024px) {
+  .custom-cursor-active {
+    cursor: none !important;
+  }
+  .custom-cursor-active a,
+  .custom-cursor-active button,
+  .custom-cursor-active input,
+  .custom-cursor-active select {
+    cursor: none !important;
+  }
+}
+
+/* Smooth exclusion blending */
+.mix-exclusion {
+  mix-blend-mode: exclusion;
+}
+
+/* Hide scrollbar for seamless aesthetics */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}

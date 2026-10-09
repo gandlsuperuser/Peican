@@ -1,0 +1,136 @@
+import { ProductItem } from "../types";
+
+export const PRODUCTS: ProductItem[] = [
+  {
+    id: "prmpt-01",
+    name: "SHINE GELATO FRUIT VESSEL",
+    category: "COLD CRAFT",
+    price: 18.5,
+    image: "/food/food-1-gelato.jpg",
+    description:
+      "Small-batch Madagascar vanilla and matcha cream gelato cradled in a black sesame waffle charcoal vessel. Finished with hand-sliced Shine Muscat grapes, mango carpaccio, farm berries, and tapioca pearls.",
+    ingredients: ["Shine Muscat Grapes", "Charcoal Sesame Waffle", "Artisan Cream Gelato", "Fresh Mango", "Summer Berries"],
+    prepTime: "Churned 05:30 AM Daily",
+    calories: "320 kcal",
+    batchNumber: "B-2601",
+  },
+  {
+    id: "prmpt-02",
+    name: "HEXA TARO & CREAM PASTRIES",
+    category: "LAMINATED BAKE",
+    price: 26.0,
+    image: "/food/food-2-pastries.jpg",
+    description:
+      "Six-piece assortment of crisp almond-flaked layered puff brioche pockets. Stuffed with organic taro root mash, slow-simmered black glutinous rice, silky diplomat custard, and matcha cream.",
+    ingredients: ["Slow-Milled Organic Taro", "Black Glutinous Rice", "French Butter Flaky Crust", "Diplomat Cream", "Toasted Almonds"],
+    prepTime: "Baked 06:15 AM Daily",
+    calories: "380 kcal / pc",
+    batchNumber: "B-2602",
+  },
+  {
+    id: "prmpt-03",
+    name: "SICHUAN PRIME DRY-SPICED BEEF",
+    category: "SAVORY ARCHIVE",
+    price: 22.5,
+    image: "/food/food-3-spiced-beef.jpg",
+    description:
+      "Tender prime beef strips slow-braised in 18 aromatic spices, flash-tossed in artisanal roasted chili oil, toasted sesame, and topped with crisp fresh coriander sprigs. Hand-portioned to exact weight.",
+    ingredients: ["Prime Grass-Fed Beef", "Tribute Sichuan Peppercorn", "Crushed Chili Flakes", "Cold-Pressed Sesame", "Fresh Coriander"],
+    prepTime: "Fire-Tossed 07:00 AM Daily",
+    calories: "410 kcal",
+    batchNumber: "B-2603",
+  },
+  {
+    id: "prmpt-04",
+    name: "MIDNIGHT HERBAL JELLY BOWL",
+    category: "WELLNESS DESSERT",
+    price: 15.0,
+    image: "/food/food-4-taro-dessert.jpg",
+    description:
+      "Cooling wild grass jelly (Xiancao) squares with handmade golden sweet potato dumplings, chewy taro spheres, crystal sago pearls, silky soybean curd, and double scoops of creamy purple rice gelato.",
+    ingredients: ["Wild Mesona Herbal Jelly", "Handmade Taro Balls", "Golden Sweet Potato Boba", "Purple Rice Gelato", "Crystal Sago"],
+    prepTime: "Crafted 06:45 AM Daily",
+    calories: "280 kcal",
+    batchNumber: "B-2604",
+  },
+  {
+    id: "prmpt-05",
+    name: "TRI-TONE LIANGPI RIBBONS",
+    category: "HAND-PULLED NOODLE",
+    price: 16.5,
+    image: "/food/food-5-ribbon-noodles.jpg",
+    description:
+      "Steamed silky ribbon noodles tinted with cold-pressed spinach jade, sweet corn gold, and red beet blush. Served cold with garlic vinaigrette, spiced chili drizzle, and toasted sesame crunch.",
+    ingredients: ["Stone-Ground Wheat Flour", "Fresh Spinach Extract", "Sweet Corn Puree", "Beetroot Essence", "Chili Garlic Broth"],
+    prepTime: "Steamed 07:30 AM Daily",
+    calories: "340 kcal",
+    batchNumber: "B-2605",
+  },
+  {
+    id: "prmpt-06",
+    name: "BLACK SESAME FRUIT CRUSH",
+    category: "COLD CRAFT",
+    price: 19.0,
+    image: "/food/food-1-gelato.jpg",
+    description:
+      "Roasted stone-ground black sesame cream blend layered with alpine strawberry puree, chilled Muscat grape jewels, and crispy sugar pearls.",
+    ingredients: ["Stone-Ground Black Sesame", "Whole Alpine Milk", "Fresh Strawberries", "Muscat Grapes"],
+    prepTime: "Churned 05:45 AM Daily",
+    calories: "310 kcal",
+    batchNumber: "B-2606",
+  },
+  {
+    id: "prmpt-07",
+    name: "PURPLE RICE & CUSTARD CROISSANT",
+    category: "LAMINATED BAKE",
+    price: 24.0,
+    image: "/food/food-2-pastries.jpg",
+    description:
+      "Crisp multi-folded almond pastry filled with steamed purple sticky rice and Tahitian vanilla pastry cream. Hand-packed in heat-sealed craft pouch.",
+    ingredients: ["Purple Sticky Rice", "Tahitian Vanilla", "Flaky Brioche", "Almond Flakes"],
+    prepTime: "Baked 06:30 AM Daily",
+    calories: "395 kcal",
+    batchNumber: "B-2607",
+  },
+  {
+    id: "prmpt-08",
+    name: "CILANTRO SESAME CHILI SHANK",
+    category: "SAVORY ARCHIVE",
+    price: 23.5,
+    image: "/food/food-3-spiced-beef.jpg",
+    description:
+      "Slow-caramelized shredded beef shank tossed with crushed roasted peanuts, cumin seed extract, and garden-picked cilantro tops.",
+    ingredients: ["Braised Beef Shank", "Crushed Peanuts", "Wild Cumin", "Sichuan Red Oil"],
+    prepTime: "Prepared 07:15 AM Daily",
+    calories: "430 kcal",
+    batchNumber: "B-2608",
+  },
+  {
+    id: "prmpt-09",
+    name: "ROYAL TARO MOCHI DELIGHT",
+    category: "WELLNESS DESSERT",
+    price: 16.0,
+    image: "/food/food-4-taro-dessert.jpg",
+    description:
+      "Silky dessert bowl crowned with mochi rice cubes, sweet taro paste dollop, black herbal jelly, and coconut milk emulsion.",
+    ingredients: ["Mochi Rice", "Organic Taro Paste", "Coconut Nectar", "Herbal Herb Extract"],
+    prepTime: "Crafted 07:00 AM Daily",
+    calories: "295 kcal",
+    batchNumber: "B-2609",
+  },
+  {
+    id: "prmpt-10",
+    name: "HARVEST THREE-COLOR COLD NOODLES",
+    category: "HAND-PULLED NOODLE",
+    price: 17.5,
+    image: "/food/food-5-ribbon-noodles.jpg",
+    description:
+      "Hand-stretched wide ribbon noodles presented in trilogy colors. Tossed with cucumber julienne, spiced vinegar dressing, and roasted sesame.",
+    ingredients: ["Trio Wheat Ribbons", "Crisp Cucumber", "Aged Black Vinegar", "Toasted Sesame Seeds"],
+    prepTime: "Steamed 07:45 AM Daily",
+    calories: "350 kcal",
+    batchNumber: "B-2610",
+  },
+];
+
+export const TOTAL_COLLECTION_PRICE = 97.33;
